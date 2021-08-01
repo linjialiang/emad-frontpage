@@ -1,7 +1,7 @@
 dir: docs
 output: dist
 site: Documents
-theme: emad-wangdoc-frontpage
+theme: wangdoc-frontpage
 customization: false
 themeDir: emad-loppo-theme
 direction: ltr

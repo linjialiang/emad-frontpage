@@ -4,7 +4,7 @@
   "description": "wangdoc.com's frontpage",
   "main": "index.js",
   "scripts": {
-    "build": "emad-loppo -t emad-wangdoc-frontpage",
+    "build": "emad-loppo -t wangdoc-frontpage",
     "build-and-commit": "npm run build && npm run commit",
     "commit": "gh-pages --dist dist --dest dist --branch master --add --repo git@github.com:linjialiang/website.git",
     "test": "echo \"Error: no test specified\" && exit 1"
