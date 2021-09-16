@@ -1,12 +1,13 @@
 {
   "name": "frontpage",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "wangdoc.com's frontpage",
   "main": "index.js",
   "scripts": {
-    "build": "emad-loppo -t wangdoc-frontpage",
+    "build": "loppo -t wangdoc-frontpage",
     "build-and-commit": "npm run build && npm run commit",
-    "commit": "gh-pages --dist dist --dest dist --branch master --add --repo git@github.com:linjialiang/website.git",
+    "server": "loppo server",
+    "commit": "gh-pages --dist dist --dest dist --branch master --add --repo git@github.com:wangdoc/website.git",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,19 +16,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/linjialiang/emad-frontpage.git"
+    "url": "https://github.com/wangdoc/frontpage.git"
   },
   "husky": {
     "hooks": {
       "pre-push": "npm update"
     }
   },
-  "author": "Lin Jialiang",
+  "author": "Ruan Yifeng",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "latest",
+    "gh-pages": "^3.2.3",
     "husky": "^4.3.8",
-    "emad-loppo": "latest",
-    "emad-loppo-theme-wangdoc-frontpage": "latest"
+    "loppo": "^0.6.24",
+    "loppo-theme-wangdoc-frontpage": "^0.4.1"
   }
 }
