@@ -4,7 +4,7 @@
   "description": "wangdoc.com's frontpage",
   "main": "index.js",
   "scripts": {
-    "server": "emad-loppo server"
+    "server": "loppo server"
   },
   "keywords": [
     "Wangdoc",
