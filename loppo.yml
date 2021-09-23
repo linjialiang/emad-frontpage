@@ -1,7 +1,10 @@
 dir: docs
 output: dist
-site: Documents
+site: qydocs 首页
 theme: wangdoc-frontpage
 customization: false
 themeDir: loppo-theme
 direction: ltr
+id: qydcos
+hasComments: true
+isTutorial: true
