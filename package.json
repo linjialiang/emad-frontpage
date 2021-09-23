@@ -24,8 +24,8 @@
   },
   "homepage": "https://gitee.com/linjialiang/emad-frontpage#readme",
   "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "emad-loppo": "latest",
-    "emad-loppo-theme-wangdoc-frontpage": "latest"
+    "emad-loppo": "^2.0.4",
+    "emad-loppo-theme-wangdoc-frontpage": "^2.0.5",
+    "gh-pages": "^3.2.3"
   }
 }
