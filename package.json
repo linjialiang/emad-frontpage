@@ -1,31 +1,31 @@
 {
-    "name": "emad-frontpage",
-    "version": "1.0.0",
-    "description": "wangdoc.com's frontpage",
-    "main": "index.js",
-    "directories": {
-        "doc": "docs"
-    },
-    "scripts": {
-        "server": "loppo server"
-    },
-    "keywords": [
-        "Wangdoc",
-        "document"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://gitee.com/linjialiang/emad-frontpage.git"
-    },
-    "author": "linjialiang",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://gitee.com/linjialiang/emad-frontpage/issues"
-    },
-    "homepage": "https://gitee.com/linjialiang/emad-frontpage#readme",
-    "devDependencies": {
-        "gh-pages": "^3.2.3",
-        "emad-loppo": "latest",
-        "emad-loppo-theme-wangdoc-frontpage": "latest"
-    }
+  "name": "emad-frontpage",
+  "version": "1.0.0",
+  "description": "wangdoc.com's frontpage",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "server": "loppo server"
+  },
+  "keywords": [
+    "Wangdoc",
+    "document"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/linjialiang/emad-frontpage.git"
+  },
+  "author": "linjialiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitee.com/linjialiang/emad-frontpage/issues"
+  },
+  "homepage": "https://gitee.com/linjialiang/emad-frontpage#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "emad-loppo": "latest",
+    "emad-loppo-theme-wangdoc-frontpage": "latest"
+  }
 }
